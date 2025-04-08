@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardContent, Typography, Box } from '@mui/material';
 
+
 function TotalFeeCard({ totalFee, feeLevel }) {
   const formatNumber = (num) => {
     return num ? num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : "0";
